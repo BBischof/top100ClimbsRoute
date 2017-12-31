@@ -93,10 +93,7 @@ I used a timer during this project and this part of the project took approximate
 - dragging a point just after the starting waypoint to the top of the climb
 - adjusting points in-between to make sure they followed the _exact_ path as the specified segment
 - fixing some data issues again _(yes, there were more at this point, c.f. below)_
-- adjusting the route between ends of climbs and starts of next to optimize both
-
- - enjoyability of ride
- - minimal distance taking into consideration the different location
+- adjusting the route between ends of climbs and starts of next to optimize both: enjoyability of ride, and minimal distance taking into consideration the different location
 
 This last point was important to me. The genetic algorithm provides a pretty good global solution, but since I was effectively doubling the number of waypoints, and the algorithm never saw the new ones, there was only this human option.
 
@@ -136,7 +133,7 @@ So I guess, you'd probably like to [see it](https://ridewithgps.com/routes/26633
 
 ## Some technical notes
 
-- The dataset was extracted originally in November, 2017. I wont likely be updating the routes.
+- The [dataset](https://github.com/BBischof/top100ClimbsRoute/blob/master/RoutesData.csv) was extracted originally in November, 2017. I wont likely be updating the routes.
 - The actual route doesn't change as the ranking list changes, but, obviously, it will be effected if totally new routes are added.
 - Bear Camp was not in the dataset when the original dataset was built, hence it's not included. [Here](https://www.pjammcycling.com/oregon---bear-camp.html) is the route. It should be in [this section](https://ridewithgps.com/routes/26535916) of the route, before you climb [Mt. Ashland](https://www.pjammcycling.com/91.--mt.-ashland--or.html) the Strava route for the new Bear Camp is [here](https://www.strava.com/segments/7625827)
 
