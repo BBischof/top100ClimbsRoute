@@ -2,11 +2,11 @@
 
 A while back, Randal Olson posted a blog post about the [optimal road trip across the US](http://www.randalolson.com/2015/03/08/computing-the-optimal-road-trip-across-the-u-s/). The parameters of his project were to design a car trip that touched all the states, and he used landmarks in each state to make it more interesting. Two things really stood out about this to me:
 - he open-sourced a nice notebook that allowed a fair bit of customization, but wrapped up some of more annoying API/wrapper stuff and the genetic algorithm
-- he noted that the API accepted a `bike routes` flag*!*
+- he noted that the API accepted a `bike routes` flag**!**
 
 The easiest way to describe what happened next is to say that I got inspired by these two observations. My project, was essentially:
 
-_Mash the dataset of [Top 100 road cycling climbs](https://www.pjammcycling.com/) with Randal Olson's project to achieve the minimal bike route that includes all these climbs_
+**_Mash the dataset of [Top 100 road cycling climbs](https://www.pjammcycling.com/) with Randal Olson's project to achieve the minimal bike route that includes all these climbs_.**
 
 This turned out to be a tiny bit complicated for a few reasons...
 
@@ -23,16 +23,16 @@ My first round yielded a route that the visualization couldn't plot because many
 Again, the visualization code died on this route. This time, it was a mixture of some bad waypoints, and a few other things:
 - the route was longer than the maximum alloted
 - some locations were on roads that are not bike friendly so Google maps disliked this
-- some locations were connected by seasonal roads, so Google maps disliked this(this issue returns later)
+- some locations were connected by seasonal roads, so Google maps disliked this_(this issue returns later)_
 
-I managed to do some small adjustments and finally get an image for this stage of the visualization, knowing that there was much more to do. I also broke the route up into ten pieces anticipating the difficulties due to scale.
+I managed to do some small adjustments and finally get an image for this stage of the visualization, knowing that there was much more to do. I also broke the route up into ten pieces, anticipating the difficulties due to scale.
 
 [screenshots]
 
 ## Transitioning to an actual cycling route
 
 I always wanted this to turn into a cycling route in the end, and the numerous issues with the Google maps visualization made clear that things wouldn't go smoothly. About this time I realized some scary realizations:
-- the data that I had didn't include the actual climb, they were simply latitude and longitude of the starting location
+- the data that I had didn't include the actual climbs, they were simply latitude and longitude of the starting location
 - I didn't have the Strava segments associated to each of these climbs
 - I couldn't find a route builder that accepted lists of coordinates to build a route, and Strava doesn't allow adding waypoints later, or searching by lat/long in their route builder.
 
@@ -55,7 +55,7 @@ I was feeling good about this and started the next step—which I'll explain in 
 
 If you look closely at how I'm extracting the above, I'm using a few tricks about the order that I download them, to infer the number in the ranking, and then searching that page for where I see the string `www.Strava`. Why is this a problem? Because pjammcycling has changed the order without updating the urls... Also, my original code wasn't clever enough to predict pages with multiple Strava links.
 
-Both of these meant this data extract was quite seriously erroneous, and in subtle and annoying ways. This wouldn't have been particularly awful, had I been using a more sophisticated method for this data extraction. The subtlety really ended up being the killer. Had this data been obviously wrong, I probably would have noticed the cause of the issue more quickly, but instead kept thinking it was just little problems that I would fix by hand.
+Both of these meant that this data extract was quite seriously erroneous, and in subtle and annoying ways. This wouldn't have been particularly awful, had I been using a more sophisticated method for this data extraction. The subtlety really ended up being the killer. Had this data been obviously wrong, I probably would have noticed the cause of the issue more quickly, but instead kept thinking it was just little problems that I would fix by hand.
 
 After several hours of bumping into these little mistakes I discovered both of these sources and was able to work around them. I ended up not really updating the shell script, and instead just manually adjusted things, or used some text-editor shenanigans.
 
@@ -69,13 +69,13 @@ _"I'll buckle down and input all these lat/long by hand"_
 
 Luckily, I had the foresight to split them into ten-climb groups. It took about an hour, but I build the original ten routes, by copy-pasting lat/long pairs into [ridewithGPS](ridewithgps.com).
 
-A note about ridewithGPS: I think that I'd more naturally use Strava to build the route, because all the climb's have the effort data, but ridewithGPS' route tool is hands-down easier to use, and allows for addition of waypoints, splitting, combining, etc. _I'm not confident this project would be possible with Strava's route tool, and it was tolerably annoying with ridewithGPS'_.
+A note about **ridewithGPS**: I think that I'd more naturally use Strava to build the route, because all the climb's have the effort data, but **ridewithGPS'** route tool is hands-down easier to use, and allows for addition of waypoints, splitting, combining, etc. _I'm not confident this project would be possible with Strava's route tool, and it was tolerably annoying with **ridewithGPS'**_.
 
 So now I have ten long routes that connect the starting points of each climb, but I'm a long way from the actual goal. This came after some manual adjustment here and there, where the points were problematic as I previously mentioned.
 
 ### A brief aside about loops
 
-The final product is not a loop. This is completely intended. The output of the algorithm is a loop. I didn't really like that, so I decided I would break it. Because I was breaking it, I could choose which pair of points didn't need connnection. Keeping in line with the original goal of the project, I removed the _longest distance connection_ between any two consecutive points in the optimized path.
+The final product is not a loop. This is completely intended. The output of the algorithm is a loop. I didn't really like that, so I decided I would break it. Because I was breaking it, I could choose which pair of points didn't need connection. Keeping in line with the original goal of the project, I removed the _longest distance connection_ between any two consecutive points in the optimized path.
 
 This turned out to be the connection from northwest Wyoming to upstate New York. I arbitrarily decided on the orientation of the route, which mean that upstate New York was the start, and that it would finish miles from the Wyoming/Montana border.
 
@@ -94,12 +94,13 @@ I used a timer during this project and this part of the project took approximate
 - adjusting points in-between to make sure they followed the _exact_ path as the specified segment
 - fixing some data issues again _(yes, there were more at this point, c.f. below)_
 - adjusting the route between ends of climbs and starts of next to optimize both
+
  - enjoyability of ride
  - minimal distance taking into consideration the different location
 
 This last point was important to me. The genetic algorithm provides a pretty good global solution, but since I was effectively doubling the number of waypoints, and the algorithm never saw the new ones, there was only this human option.
 
-This process was very challenging, and I had to spread this over a few weeks. The route builder in some cases, seemed _insistant_ on not following the route I wanted and occasionally would require six or more extra points to force it. Not to mention the incredible frustration of summer roads. The astute reader may realize that we've been talking about mountains here, which in some cases, get snowy. In places like Colorado and some in the Sierras, the climb is on a summer road that I for the life of me, could not get **ridewithGPS** to plot on. However, again we see the flexibility of their tool: you can freehand.
+This process was very challenging, and I had to spread this over a few weeks. In some cases, the route builder seemed _insistant_ on not following the route I wanted and occasionally would require six or more extra points to force it. Not to mention the incredible frustration of summer roads. The astute reader may realize that we've been talking about mountains here, which in some cases, get snowy. In places like Colorado and some in the Sierras, the climb is on a summer road that I for the life of me, could not get **ridewithGPS** to plot on. However, again we see the flexibility of their tool: you can freehand.
 
 So yes, dear reader, a few of the climbs are freehanded(poorly I might add).
 
@@ -108,6 +109,8 @@ So yes, dear reader, a few of the climbs are freehanded(poorly I might add).
 How could there be any data issues left by now? _...Sigh..._
 
 In one case, I had apparently deleted a digit in the dataset accidentally. In two cases, the Strava segment listed was no longer listed on Strava. And more! These little issues eat up time and make an already exhausting task feel impossible. Nevertheless, I persisted.
+
+#### Explicit changes to the dataset
 
 Here is a short list of _data changes_ that I made:
 - A few climbs had double Strava segments
@@ -122,6 +125,8 @@ Here is a short list of _data changes_ that I made:
 
 Now I had ten routes ([1](https://ridewithgps.com/routes/26535896), [2](https://ridewithgps.com/routes/26535908), [3](https://ridewithgps.com/routes/26535916), [4](https://ridewithgps.com/routes/26535920), [5](https://ridewithgps.com/routes/26535926), [6](https://ridewithgps.com/routes/26535934), [7](https://ridewithgps.com/routes/26535938), [8](https://ridewithgps.com/routes/26535948), [9](https://ridewithgps.com/routes/26535957), [10](https://ridewithgps.com/routes/26535964)), all with ten climbs each. Again, **ridewithGPS** to the rescue; combining was relatively painless. Although, I'll admit that it's a little hard on the browser to have close to 300 waypoints stretched over 14000 miles of route. I can't really complain though.
 
+So I guess, you'd probably like to [see it](https://ridewithgps.com/routes/26633832)?
+
 ## By the numbers
 
 - 100 climbs in the Continental US
@@ -134,3 +139,11 @@ Now I had ten routes ([1](https://ridewithgps.com/routes/26535896), [2](https://
 - The dataset was extracted originally in November, 2017. I wont likely be updating the routes.
 - The actual route doesn't change as the ranking list changes, but, obviously, it will be effected if totally new routes are added.
 - Bear Camp was not in the dataset when the original dataset was built, hence it's not included. [Here](https://www.pjammcycling.com/oregon---bear-camp.html) is the route. It should be in [this section](https://ridewithgps.com/routes/26535916) of the route, before you climb [Mt. Ashland](https://www.pjammcycling.com/91.--mt.-ashland--or.html) the Strava route for the new Bear Camp is [here](https://www.strava.com/segments/7625827)
+
+## Next Steps
+
+First, I want to mention an accidental offshoot of this project: _maximal sub-routes_. By this I mean, "what are some sections of this route which maximize the elevation/mileage trade-off?" These are thigns that you could consider turning into crazy Gran-Fondos like the [California Triple Crown series](http://www.caltriplecrown.com/) which are hard-as-nails double centuries. There are some obvious ones in this data-set, and some manual inspection can find some cute little things like Mile 310-510 in the [4th route](https://ridewithgps.com/routes/26535920) which contains almost 30k climbing on six of the top 100 climbs! _([HRS I'm looking at you here!](http://www.highrouleur.cc/))_
+
+I'll be following this post up with some fun dives into snippets like the above.
+
+Finally, I want to mention that this project, believe it or not, is part one. To keep the mystery alive, I'll only mention that part two is to compute the _Best of the Top 100_, and more generally a **Strava ELO...**
