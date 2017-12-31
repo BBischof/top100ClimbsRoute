@@ -1,0 +1,108 @@
+number, name, fiets_index_score, length, avg_grade, ele_gain, ele_desc, start_ele, end_ele, max_grade, rd_cond, traffic, lat, long, url, route_number, secondary_route_number
+1, Mauna Kea Hawaii, 28.95, 42.5, 5.9, 13789, -35, 3, 13757, 24.8, 3, 3, 19.726720, -155.086866, "https://www.pjammcycling.com/1.--mauna-kea---test2.html",1504789
+2, Haleakala Hawaii, 18.52, 34.8, 5.6, 10249, -284, 14, 9978, 15.5, 5, 3, 20.91605, -156.38119, "https://www.pjammcycling.com/2.--haleakala--hi.html",638944
+3, Mt Washington Auto Rd New Hampshire, 18.01, 7.4, 11.9, 4655, 0, 1584, 6268, 22.0, 3, 5, 44.28927, -71.22967, "https://www.pjammcycling.com/3.--mt-washington--nh.html",3237
+4, Mauna Loa Hawaii, 17.83, 45.2, 4.4, 11008, -14, 3, 11004, 12.9, 4, 3, 19.72647, -155.08711, "https://www.pjammcycling.com/4.--mauna-loa--hi.html",6998193
+5, Pikes Peak Colorado, 17.67, 24.2, 6.5, 7914, -171, 6345, 14115, 13.8, 5, 3, 38.85928, -104.91966, "https://www.pjammcycling.com/5.--pikes-peak--co.html",625021
+6, Onion Valley Rd California, 14.15, 12.7, 8.2, 5270, -83, 3976, 9178, 13.7, 3, 4, 36.80156, -118.20195, "https://www.pjammcycling.com/6.--onion-valley-road--ca.html",4624623
+7, Horseshoe Meadows Rd California, 13.74, 19.2, 6.5, 6490, -512, 3820, 10052, 15.3, 3, 4, 36.54224, -118.05151, "https://www.pjammcycling.com/7.-horseshoe-meadows--ca.html",1334431
+8, Kaloko Dr Hawaii, 12.82, 11.7, 8.4, 4985, -1, 93, 5082, 20.7, 4, 4, 19.69051, -156.0226, "https://www.pjammcycling.com/8.--kaloko-dr.--hi.html",885309
+9, White Mountain California, 12.8, 20.1, 6.3, 6375, -214, 3944, 10109, 19.9, 4, 3, 37.18501, -118.25297, "https://www.pjammcycling.com/9.--white-mountain--ca.html",626925
+10, Waipoli Rd Hawaii, 12.74, 19.4, 8.2, 6299, -23, 95, 6371, 18.8, 4, 3.5, 20.87158, -156.43841, "https://www.pjammcycling.com/10.--waipoli-rd--hi.html",2917983
+11, Mt Evans Colorado, 12.46, 27.4, 4.9, 6957, -375, 7554, 14130, 13.3, 4, 3, 39.73919, -105.52242, "https://www.pjammcycling.com/11.--mt-evans--co.html",642991
+12, Sherman Pass West California, 12.29, 15.6, 6.4, 5335, -49, 3786, 9169, 11.9, 3, 5, 35.96737, -118.48555, "https://www.pjammcycling.com/12.-sherman-pass-west--ca.html",660358
+13, Whitney Portal California, 12.18, 11.3, 8.0, 4573, -6, 3804, 8376, 13.8, 3, 3, 36.60186, -118.0738, "https://www.pjammcycling.com/13.-whitney-portal--ca.html",2318996
+14, Guardsman Pass Utah, 12.07, 8.7, 8.4, 3987, -77, 5762, 9727, 19.2, 2, 4, 40.53862, -111.48375, "https://www.pjammcycling.com/14.--guardsman-pass--ut.html",2731723,  8951652
+15, Nate Harrison Grade California, 11.75, 10.3, 8.5, 4431, -10, 902, 5346, 14.7, 1, 5, 33.31599, -116.9903, "https://www.pjammcycling.com/15.--nate-harrison-grade--ca.html",8962753
+16, Hwy 39-Dawson's Saddle California, 11.68, 23.4, 5.0, 6621, -191, 1488, 7908, 14.5, 3, 4, 34.2385, -117.85815, "https://www.pjammcycling.com/16.-hwy-39-angeles-crest-hwy--ca2.html",724632
+17, Mt Graham Arizona, 11.42, 20.1, 5.7, 6006, -578, 3344, 9033, 16.2, 4, 5, 32.71838, -109.72583, "https://www.pjammcycling.com/17.--mt-graham--az2.html",623710
+18, Mt Equinox Vermont, 11.4, 5.3, 11.1, 3173, -5, 652, 3849, 15.3, 5, 5, 43.11743, -73.11345, "https://www.pjammcycling.com/18.--mt-equinox--sunderland-vt.html",3687
+19, Hwy 21-Whittaker Forest California, 11.2, 23.1, 4.8, 6833, -568, 1295, 7581, 24.7 , 2, 5, 36.56638, -119.02566, "https://www.pjammcycling.com/19.--whittaker-forest--ca.html",7193411
+20, Mt Baldy California, 11.19, 12.7, 6.9, 5013, -266, 1647, 6478, 15.1, 4, 3, 34.1388, -117.7073, "https://www.pjammcycling.com/20.-mt-baldy--ca.html",646257
+21, Bear Creek Road California, 11.18, 16.1, 6.2, 5432, -446, 1392, 6669, 16.8, 2, 5, 36.18572, -118.79864, "https://www.pjammcycling.com/21.--bear-creek-road--ca.html",9910448
+22, Hwy 156-Lee Canyon Nevada, 11.17, 17.3, 5.6, 5338, -13, 3311, 8649, 9.2 , 5, 4, 36.47749, -115.46804, "https://www.pjammcycling.com/22.-hwy-156--nv.html",734755
+23, Powder Mountain Utah, 11.04, 6.1, 10.5, 3154, -2, 5076, 8245, 15.30 , 4, 5, 41.32072, -111.82961, "https://www.pjammcycling.com/23.--powder-mountain--ut.html",671261
+24, Grand Mesa North Colorado, 11, 21.4, 5.5, 5726, -58, 5163, 10875, 12.4, 4, 4, 39.1907, -108.141163, "https://www.pjammcycling.com/24.--grand-mesa-north--co.html",1798960
+25, South Lake California, 10.88, 18.6, 5.4, 5488, -72, 4387, 9824, 13.4, 4, 3, 37.36088, -118.45406, "https://www.pjammcycling.com/25.--south-lake--ca.html",648116
+26, Shirley Meadows California, 10.87, 9.9, 7.9, 4094, -21, 2692, 6819, 15.9, 4, 4, 35.7068, -118.4567, "https://www.pjammcycling.com/26.--shirley-meadows--ca.html",9985856
+27, Hwy 14 Alt Route Wyoming, 10.77, 18.5, 6.5, 5446, -132, 3745, 9076, 20.9, 4, 4, 44.83182, -108.15399, "https://www.pjammcycling.com/27.--alternate-route-14--wy.html",4783543
+28, Rock Creek California, 10.76, 24.5, 4.9, 5824, -274, 4521, 10223, 10.9, 4, 4, 37.46311, -118.59326, "https://www.pjammcycling.com/37.--rock-creek--ca.html",8947396
+29, Lake Sabrina California, 10.71, 14.6, 7.8, 4809, -64, 4389, 9141, 17.8, 4, 3, 37.36083, -118.45427, "https://www.pjammcycling.com/28.-lake-sabrina--ca.html",4664092
+30, Mineral King Rd California, 10.68, 21.3, 5.7, 6114, -304, 1185, 7107, 21.5, 2, 5, 36.46697, -118.85879, "https://www.pjammcycling.com/29.--mineral-king-road--ca.html",624817
+31, Little Cottonwood Canyon Utah, 10.64, 10.5, 7.1, 3988, 0, 5390, 9384, 11.8, 4, 3, 40.57271, -111.77647, "https://www.pjammcycling.com/30.--little-cottonwood-canyon--ut.html",9647922
+32, Wheeler Peak Nevada, 10.63, 15.9, 5.9, 4856, -18, 5320, 10170, 10.70 , 5, 4, 39.01207, -114.12316, "https://www.pjammcycling.com/31.--wheeler-peak--nv.html",636528
+33, Nine Mile Rd California, 10.53, 15.7, 6.4, 5098, -99, 2590, 7576, 13.9, 4, 5, 35.84214, -117.87575, "https://www.pjammcycling.com/32.--nine-mile-canyon-road--ca.html",623599
+34, Hwy 156-158 Nevada, 10.27, 16.3, 5.6, 5012, -63, 3350, 8332, 8.2 , 5, 4, 36.47554, -115.46974, "https://www.pjammcycling.com/33.--hwy-156-158--nv.html",665136
+35, Hwy 198 California, 10.14, 19.6, 5.2, 5729, -208, 1284, 6859, 22.0, 4, 3, 36.47937, -118.83915, "https://www.pjammcycling.com/34.--hwy-198--ca.html",3617318
+36, Palomar Mt California, 10.03, 12.4, 6.9, 4450, -3, 1026, 5513, 10.7, 4, 3, 33.28844, -116.95862, "https://www.pjammcycling.com/35.--palomar-mountain--ca.html",273807
+37, Hwy 143 Utah, 9.94, 14.0, 6.6, 4331, -3, 5074, 10413, 14.3, 4, 4, 37.83863, -112.81978, "https://www.pjammcycling.com/36.--hwy-143--ut.html",9657320
+38, Mt Lemmon Arizona, 9.87, 29.0, 4.3, 7080, -711, 2760, 9133, 10.8, 5, 3, 32.29483, -110.75438, "https://www.pjammcycling.com/38.-mt-lemmon--az.html",8950048
+39, Big Cottonwood Canyon Utah, 9.83, 16.9, 5.8, 4900, -116, 4911, 9729, 13.6, 4, 2, 40.61933, -111.78945, "https://www.pjammcycling.com/39.--big-cottonwood-canyon--ut.html",621273
+40, Hwy 190 California, 9.79, 22.3, 5.0, 6066, -301, 1207, 7191, 21.1, 4, 3, 36.13208, -118.78377, "https://www.pjammcycling.com/40.--hwy-190--ca.html",9910457
+41, Glacier Lodge Rd California, 9.5, 9.6, 6.8, 3647, 0, 4029, 7804, 11.8, 3, 4, 37.16608, -118.30093, "https://www.pjammcycling.com/44.--glacier-lodge-rd--ca.html",9664095
+42, Whiteface Mt New York, 9.46, 7.9, 8.3, 3509, 0, 1040, 4571, 10.5, 5, 4, 44.38987, -73.8223, "https://www.pjammcycling.com/41.-whiteface-mt--ny.html",667415
+43, Hwy 21-245-180-198 California, 9.37, 28.4, 4.0, 6790, -271, 1295, 7593, 11.8, 3, 4, 36.56728, -119.02482, "https://www.pjammcycling.com/42.-hwy-21-245-180-198--ca.html",14594861,  4945390
+44, Hwy 330 California, 9.28, 18.7, 5.3, 5365, -202, 1458, 6631, 14.3, 4, 1, 34.13577606182823,	-117.19128549098969, "https://www.pjammcycling.com/45.--hwy-330--ca.html",787836
+45, Mt Harrision Idaho, 9.18, 14.6, 5.7, 4298, -6, 4927, 9214, 10.2, , , 42.38671, -113.55081, "https://www.pjammcycling.com/46.--mt.-harrison--id.html",4424507
+46, Sonora Pass West California, 9.09, 9.1, 7.3, 3392, -54, 6299, 9651, 14.7, 4, 4, 38.32459, -119.75218, "https://www.pjammcycling.com/47.--sonora-pass-west--ca.html",754793
+47, Hwy 18-Waterman Canyon California, 9.03, 12.6, 6.4, 4331, -88, 1367, 5179, 16.7, 4, 1, 34.16959, -117.27871, "https://www.pjammcycling.com/48.--hwy-18-old-waterman-canyon.html",2402383
+48, Empire Pass Utah, 9.03, 7.9, 7.9, 3211, -59, 5762, 8970, 16.2, 2, 4, 40.52911, -111.47927, "https://www.pjammcycling.com/43.--empire-pass--ut.html",4433534,
+49, Hwy 157-158 Nevada, 8.98, 21.6, 4.9, 5308, -27, 2821, 8168, 8.9, 5, 3, 36.32717, -115.31336, "https://www.pjammcycling.com/49.--hwy-157-158--nv.html",694999
+50, Townes Pass East California, 8.95, 16.9, 5.6, 4962, -2, 0, 4979, 10.2, 5, 4, 36.60709, -117.14599, "https://www.pjammcycling.com/50.--townes-pass-east--ca.html",8960810
+51, Hurricane Ridge Washington, 8.84, 18.6, 4.9, 5314, -179, 97, 5173, 15.7, 5, 4, 48.11297, -123.41876, "https://www.pjammcycling.com/52.--hurricane-ridge--wa.html",623203
+52, Hwy 14 West Wyoming, 8.79, 16.7, 5.1, 4564, -44, 4403, 9034, 16.0, 4, 4, 44.57073, -107.70719, "https://www.pjammcycling.com/51.--granite-pass--wy.html",1653954
+53, Hwy 180 West California, 8.76, 18.8, 5.1, 5003, -12, 1605, 6594, 10.3, 4, 3, 36.75468, -119.18382, "https://www.pjammcycling.com/53.--hwy-180-east--ca.html",4092402
+54, Grand Mesa South Colorado, 8.75, 19.1, 4.8, 4631, -21, 6215, 10875, 10.6, 4, 4, 38.9008, -107.92371, "https://www.pjammcycling.com/54.-grand-mesa-south--co.html",1211716
+55, Mt Rose California, 8.72, 15.5, 5.4, 4387, -12, 4578, 8919, 10.3, 4, 1, 39.4027, -119.74638, "https://www.pjammcycling.com/55.--mt.-rose--nv.html",2783, 475241
+56, Wildrose California, 8.64, 14.6, 6.2, 4445, 0, 1371, 5917, 9.3 , 1, 5, 36.17544, -117.30403, "https://www.pjammcycling.com/56.-wildrose-rd--ca.html",8962723
+57, Mt Auscutney Vermont, 8.62, 3.5, 11.0, 2250, 0, 517, 2795, 18.1, 4, 4, 43.43782, -72.40574, "https://www.pjammcycling.com/57.--mt.-ascutney--vt.html",229501
+58, Gibraltar Road Santa Barbara California, 8.58, 9.8, 7.6, 4089, -331, 220, 3980, 15.0, 4, 5, 34.44309, -119.67446, "https://www.pjammcycling.com/57a-gibraltar-road.html",634846
+59, Hwy 39-Crystal Lake Rd California, 8.52, 14.1, 5.4, 4425, -92, 1488, 5817, 15.0, 4, 3, 34.23916, -117.8513, "https://www.pjammcycling.com/58.--hwy-39-crystal-lake--ca.html",8964271
+60, Mt Shasta California, 8.51, 14.2, 5.7, 4171, 0, 3625, 7829, 9.0 , 5, 4, 41.32735, -122.3223, "https://www.pjammcycling.com/59.-mt.-shasta--ca.html",620195
+61, Independence Pass Colorado, 8.49, 15.8, 4.9, 3986, -8, 8118, 12102, 8.9 , 4, 3, 39.1818950,	-106.8036530, "https://www.pjammcycling.com/60.--independence-pass--hwy-82--co.html",620210
+62, East Portal Colorado, 8.47, 3.3, 11.6, 1966, 0, 6557, 8542, 17.9, 3, 5, 38.541154,	-107.693230, "https://www.pjammcycling.com/61.--east-portal--co.html",8967293
+63, Tollhouse Rd California, 8.45, 9.6, 6.8, 3595, -17, 1915, 5568, 19.6, 3, 3, 37.01812, -119.39948, "https://www.pjammcycling.com/62.--trail-ridge-rd--co.html",9887218
+64, Trail Ridge Rd Colorado, 8.44, 17.9, 4.6, 4352, -152, 7907, 12113, 10.6, 5, 3, 40.39628, -105.56513, "https://www.pjammcycling.com/63a-etna-summit-west--ca.html",9702391
+65, Etna Summit West California, 8.39, 6.9, 8.8, 2993, -9, 2982, 5982, 18.3, 3, 5, 41.34585, -123.04316, "https://www.pjammcycling.com/63.--beasore-rd--ca.html",7431352,  899186
+66, Beasore Rd California, 8.33, 11.5, 6.1, 3765, -23, 3553, 7313, 9.8 , 4, 5, 37.32428, -119.5542, "https://www.pjammcycling.com/64.-portuguese-pass--ca.html",675114
+67, Hwy 157 Mt Charleston Nevada, 8.32, 21.2, 4.8, 5031, -11, 2821, 7829, 9.1 , 5, 2, 36.32717, -115.31336, "https://www.pjammcycling.com/65.--sandia-crest-hwy--nm.html",935285
+68, Left Hand Canyon Colorado, 8.32, 22.5, 4.2, 4919, -36, 5611, 10508, 13.9, 3, 4, 40.13348, -105.28529, "https://www.pjammcycling.com/66.--hwy-157--mt-charleston--nv.html",10022984
+69, Portuguese Pass California, 8.32, 13.6, 5.7, 4178, -125, 3264, 7339, 14.6, 2, 5, 35.79496, -118.70404, "https://www.pjammcycling.com/67.--pine-creek--ca.html", 694534
+70, Sandia Crest Hwy New Mexico, 8.32, 13.4, 5.4, 3874, -122, 6882, 10648, 11.1, 4, 4, 35.16311, -106.34845, "https://www.pjammcycling.com/67a---left-hand-canyon.html",1466117
+71, Pine Creek Rd California, 8.3, 8.8, 7.3, 3223, 0, 4649, 7842, 11.1, 3, 4, 37.41956, -118.58354, "https://www.pjammcycling.com/68.--hwy-31--ut.html",4350313
+72, Hwy 31 West Utah, 8.22, 13.4, 6.3, 3859, -64, 5991, 9787, 10.2, 4, 4, 39.63436, -111.44029, "https://www.pjammcycling.com/69.--clingman-s-dome--tn.html",9760623
+73, Clingman's Dome Tennessee, 8.21, 20.2, 4.8, 5890, -893, 1481, 6613, 19.9, 4, 2, 35.68472, -83.53517, "https://www.pjammcycling.com/70.-stainback-rd--hi.html",629572
+74, Stainback Rd Hawaii, 8.19, 18.3, 5.5, 4906, 0, 241, 5188, 7.5 , 4, 4, 19.66392, -155.06096, "https://www.pjammcycling.com/71.--wolf-creek-pass--co.html",8945499
+75, Death Valley Rd East California, 8.19, 15.1, 5.7, 4295, -72, 3423, 7630, 10.30 , 3, 5, 37.28242, -117.87875, "https://www.pjammcycling.com/71a-death-valley-rd-east--ca.html",5585297
+76, Wolf Creek Pass Colorado, 8.1, 8.7, 6.4, 2942, 0, 7906, 10857, 15.4, 5, 2, 37.43559, -106.88612, "https://www.pjammcycling.com/71.--mission-ridge--wa.html",3650413
+77, Slumgullion Pass West Colorado, 8.09, 7.6, 6.9, 2686, -4, 8843, 11539, 11.7, 3, 4, 37.99783, -107.29417, "https://www.pjammcycling.com/73.--daylight-pass--death-valley---ca.html",1698011
+78, Mission Ridge Washington, 8.05, 11.0, 7.1, 3812, -2, 792, 4556, 12.9, 4, 3, 47.39676, -120.30286, "https://www.pjammcycling.com/74.--elkhorn-summit--or.html",1190714
+79, Daylight Pass Rd California, 8, 12.8, 6.0, 4121, 0, 176, 4313, 8.8 , 3, 5, 36.6464, -117.04131, "https://www.pjammcycling.com/74a-slumgulion-pass.html",1053678
+80, Elkhorn Summit Oregon, 8, 10.3, 6.3, 3484, -17, 3735, 7226, 13.2, , , 44.99366, -118.082, "https://www.pjammcycling.com/75.-kolob-terrace--ut.html",2367960
+81, Kolob Terrace Rd Utah, 7.99, 15.4, 5.4, 4296, -119, 3809, 7988, 11.9, 3, 4, 37.25145, -113.14089, "https://www.pjammcycling.com/76.--cottonwood-pass--co.html",9776483
+82, Cottonwood Pass Colorado, 7.99, 18.5, 4.4, 4150, -48, 8016, 12127, 9.50, 3, 4, 38.83791, -106.14577, "https://www.pjammcycling.com/77.--hwy-153--ut.html",1515689
+83, Hwy 153 Utah, 7.94, 18.1, 4.8, 4275, -31, 6048, 10308, 12.2, 4, 4, 38.2784, -112.60248, "https://www.pjammcycling.com/78.--monitor-pass-east--ca-final.html",9834456
+84, Monitor Pass East California, 7.91, 9.5, 6.7, 3220, -1, 5101, 8330, 10.1, 5, 4, 38.64263, -119.52776, "https://www.pjammcycling.com/79.--hwy-82.-nm.html",4235370
+85, Hwy 38-Valley of Falls California, 7.89, 14.9, 5.3, 4262, -24, 1766, 5878, 12.9, 4, 3, 34.06983, -117.12163, "https://www.pjammcycling.com/80.--hwy-38-valley-of-falls--ca.html",664656
+86, Hwy 82 New Mexico, 7.89, 14.2, 5.1, 3943, -32, 4720, 8639, 14.3, 4, 4, 32.95855, -105.94006, "https://www.pjammcycling.com/81--dantes-view--death-valley--ca.html",678275
+87, Dantes View California, 7.84, 24.0, 5.8, 5444, -2, 5, 5445, 12.6, 4, 4, 36.44902, -116.85304, "https://www.pjammcycling.com/82.--mosquito-ridge-rd-east--ca.html",631922
+88, Mosquito Ridge Rd East California, 7.84, 18.2, 5.1, 4659, -31, 1401, 5983, 15.6, 4, 5, 39.02411, -120.72053, "https://www.pjammcycling.com/83.-tollhouse-rd--ca.html",3806021
+89, Beartooth Pass North Montana, 7.8, 30.0, 3.6, 5720, -450, 5630, 10950, 10.2, 4, 3, 45.17396, -109.26, "https://www.pjammcycling.com/84.-baldwin-olinda-rd--hi.html",2352061,  2326597
+90, Baldwin/Olinda Rd Hawaii, 7.8, 12.4, 6.2, 4046, -31, 12, 4104, 15.2, 4, 3, 20.91605, -156.38119, "https://www.pjammcycling.com/85.--beartooth-pass--mt.html",8964831
+91, Parks Creek East California, 7.77, 11.8, 5.9, 3686, -1, 3169, 6860, 11.1, 2, 5, 41.43565, -122.46185, "https://www.pjammcycling.com/86.--parks-creek-east--ca.html",747320, 609666
+92, Burke Mt Vermont, 7.76, 3.3, 12.7, 2075, 0, 1125, 3180, 20.4, 4, 5, 44.59102, -71.91734, "https://www.pjammcycling.com/87.--burke-mt.--vt.html",130445
+93, Hwy 18 North California, 7.75, 10.7, 7.1, 3508, 0, 3311, 6832, 12.0, 4, 1, 34.40046, -116.88939, "https://www.pjammcycling.com/88.--hwy-18-north--ca.html",3510610
+94, Refugio Rd California, 7.71, 10.8, 6.7, 3757, -25, 216, 3951, 13.4, 3, 5, 34.49137, -120.06571, "https://www.pjammcycling.com/89.--refugio-rd--ca.html",641588, 10862798
+95, Townes Pass West California, 7.71, 9.3, 7.5, 3371, -5, 1555, 4953, 14.8, 5, 4, 36.34185, -117.38979, "https://www.pjammcycling.com/90.--townes-pass-west--death-valley--ca.html",256983
+96, Mt Ashland Oregon, 7.68, 16.2, 5.0, 4408, -92, 2273, 6621, 13.4, 4, 4, 42.13153, -122.61225, "https://www.pjammcycling.com/91.--mt.-ashland--or.html",631868
+97, Magnolia Dr Colorado, 7.67, 4.5, 10.0, 2201, -4, 6056, 8232, 19.0, 3, 5, 40.00548, -105.34956, "https://www.pjammcycling.com/92.--magnolia-dr.--co.html",617452
+98, Guanella Pass Colorado, 7.67, 10.8, 5.5, 3260, -190, 8560, 11669, 13.3, 4, 4, 39.70378, -105.69796, "https://www.pjammcycling.com/93.--guanella-pass--co.html",1400770
+99, Hwy 168 California, 7.64, 16.3, 6.1, 4684, -249, 1080, 5568, 16.5, 4, 2, 37.01742, -119.52621, "https://www.pjammcycling.com/94.--hwy-168--ca.html",8942938
+100, Emigrant Pass East California, 7.63, 20.7, 5.0, 5017, -2, 0, 5303, 15.0, 4, 4, 36.60709, -117.14599, "https://www.pjammcycling.com/94a-emigrant-pass-east--ca.html",648574
+101, N4/Table Mt California, 7.62, 13.7, 5.2, 4008, -128, 3483, 7361, 11.8, 4, 4, 34.4928, -117.76516, "https://www.pjammcycling.com/95.--hwy-n4-table-mt.--ca.html",10008717
+102, Balch Park Rd California, 7.6, 18.0, 4.9, 4718, -182, 1796, 6348, 12.1, 2, 5, 36.22008, -118.81663, "https://www.pjammcycling.com/97.--balch-park-road--ca.html",10008833
+103, Breckenridge Rd East California, 7.6, 8.7, 6.9, 3140, -14, 3514, 6657, 11.4, 2, 5, 35.4853, -118.52665, "https://www.pjammcycling.com/95.--breckenridge-rd-east--ca.html",13376797
+104, Mt Spokane Washington, 7.57, 13.2, 5.6, 3874, -14, 1964, 5850, 12.0, 3, 4, 47.83, -117.202, "https://www.pjammcycling.com/98.--mt.-spokane--wa.html",4386861
+105, Lone Pine-Table Mountain California, 7.56, 15.1, 4.5, 4403, -347, 3311, 7330, 11.2, 4, 3, 34.31577, -117.49562, "https://www.pjammcycling.com/99.--lone-pine-table-mt.--ca.html",3812372
+106, Mt Hood Oregon, 7.56, 15.1, 5.7, 4196, 0, 1625, 5836, 12.6, , , 45.32988, -121.91116, "https://www.pjammcycling.com/100.--mt.-hood--or.html",4894953
+107, Mix Canyon Fairfield California, 6.92, 4.0, 11.1, 2165, 0, 476, 2601, 18.6, 3, 5, 38.41062, -122.05215, "https://www.pjammcycling.com/100.--mix-canyon---final.html",10041535
